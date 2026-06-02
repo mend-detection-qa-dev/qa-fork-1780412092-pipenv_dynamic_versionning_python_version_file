@@ -1,13 +1,15 @@
 {
-    "scanSettings": {
-   "configMode": "AUTO",
+  "scanSettings": {
+    "configMode": "AUTO",
     "configExternalURL": "",
     "projectToken": "",
     "baseBranches": [],
-    "versioning":{"pipenv": "2025.0.4"}
+    "versioning": {
+      "pipenv": "2025.0.4"
+    }
   },
   "scanSettingsSAST": {
-    "enableScan": true,
+    "enableScan": false,
     "scanPullRequests": true,
     "incrementalScan": true,
     "baseBranches": [],
@@ -33,19 +35,15 @@
   },
   "remediateSettings": {
     "workflowRules": {
-      "enabled": true
+      "enabled": false
     }
   },
-   "imageSettings":{
-       "imageTracing":{
-           "enableImageTracingPR": false,
-           "addRepositoryCoordinate": false,
-           "addDockerfilePath": false,
-           "addMendIdentifier": false
-       }
-   }
+  "imageSettings": {
+    "imageTracing": {
+      "enableImageTracingPR": false,
+      "addRepositoryCoordinate": false,
+      "addDockerfilePath": false,
+      "addMendIdentifier": false
+    }
+  }
 }
-
-
-
-
